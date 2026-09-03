@@ -1,16 +1,23 @@
-
 # Mission 3: Become a Multi-Cloud Explorer
 
-## Overview
-This repository contains research, architectural analysis, service comparisons, and strategic cloud recommendations developed for CloudNova Technologies across Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).
+## Executive Summary
+This repository contains technical documentation, provider research, service matching matrices, client recommendations, and a reflection report prepared for CloudNova Technologies. The goal of this project is to evaluate the core capabilities of **Amazon Web Services (AWS)**, **Microsoft Azure**, and **Google Cloud Platform (GCP)** to recommend optimal cloud solutions based on specific business requirements.
 
 ---
 
-## Linux System Investigation (KillerCoda Environment)
+## Directory Structure
 
-### Commands Run & Output Evidence
-To analyze the local Linux environment prior to evaluating cloud migration options, the following commands were executed in the KillerCoda sandbox:
-
-1. **Operating System:**
-   ```bash
-   cat /etc/os-release
+```text
+Laboratory-03-Multi-Cloud-Explorer/
+├── screenshots/
+│   ├── aws-console.png
+│   ├── azure-portal.png
+│   ├── gcp-console.png
+│   └── terminal-output.png
+├── aws-research.md
+├── azure-research.md
+├── gcp-research.md
+├── cloud-platform-comparison.md
+├── client-recommendations.md
+├── reflection.md
+└── README.md
