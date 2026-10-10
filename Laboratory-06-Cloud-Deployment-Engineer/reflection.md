@@ -1,1 +1,11 @@
+# Mission 6: The Cloud Deployment Engineer — Reflection
 
+In this laboratory activity, I learned how Docker Compose makes cloud deployment easier and more organized. Instead of manually typing multiple commands to create and configure individual containers, I can write a single `docker-compose.yml` file that describes the entire application. By using Docker Compose, I can deploy multiple connected services with one command, making the process faster, more consistent, and easier to repeat. This is especially useful when managing applications that require both a web server and a database.
+
+I also learned that YAML indentation is very important when creating configuration files. If I make an indentation error or use a Tab instead of spaces, Docker Compose may fail to read the file correctly. This taught me to pay close attention to the structure and formatting of my code. Checking the configuration before deployment can help prevent errors and save time during troubleshooting.
+
+Environment variables, such as `MYSQL_PASSWORD`, are used to provide configuration values to containers. They allow the application and database to use matching credentials and database settings without hardcoding these values directly into application code. However, I also learned that passwords written directly in a Compose file should only be used for practice. In real-world deployments, sensitive credentials should be protected using appropriate secrets management.
+
+Deploying Nextcloud in just a few minutes was an exciting experience because I was able to see how different containers work together as one application. I gained a better understanding of how the Nextcloud application communicates with MariaDB and how port mapping allows users to access a web application through a browser.
+
+Since Mission 1, my understanding of cloud computing has developed from learning basic concepts to actually configuring and deploying cloud-based applications. I now understand that cloud computing involves not only providing resources but also managing infrastructure, networking, storage, and services efficiently. Overall, this mission improved my confidence in using Linux commands, Docker Compose, YAML, and GitHub. It also helped me understand the importance of Infrastructure as Code in modern cloud engineering.
